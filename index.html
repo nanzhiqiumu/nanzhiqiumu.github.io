@@ -2,21 +2,22 @@
 <html>
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+<meta name="toTop" content="true">
 <title>UI设计师-翟楠楠</title>
 <link rel="stylesheet" href="css/animate.css">
-<script src="js/wow.min.js" ></script>
 <script src="js/jquery.min.js" ></script>
-<link rel="stylesheet" href="css/style.css" media="screen">
-<script src='js/prefixfree.min.js'></script>
-<script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
-<script src='js/jquery.scrollme.js'></script>
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+<script src="js/wow.js" ></script>
+<script src="js/toTop.js" ></script>
+
+
 
 <style>
 	*{
 		padding: 0;
 		margin: 0;
 		font-family: "微软雅黑";
+		cursor：pointer;
 	}
 	li{
 		list-style: none;
@@ -28,6 +29,7 @@
 	
 	.licheng{
 		width: 100%;
+		max-width: 1440px;
 		margin: 0 auto;
 		clear: both;
 		position: relative;
@@ -43,6 +45,10 @@
 		width: 100%;
 		vertical-align:bottom;
 	}
+	#toTop img{
+		width: 100%;
+		height: 100%
+	}
 </style>
 </head>
 
@@ -52,6 +58,8 @@
 	<a style="display: block; width:60px;height: 60px; text-align: center; line-height: 20px; font-size: 12px;" href="tel:18511743300" ><img style="width: 100%" src="phone.png" alt=""></a>
 </div>
 	
+	
+
 <div class="licheng row">
 	<ul>
 		<li class="wow bounceInUpUp" >
@@ -165,9 +173,11 @@
 		<li class="wow bounceInUp" >
 			<img src="img/29-7.jpg" alt="">
 		</li>
+<!--
 		<li class="wow bounceInUp" >
 			<img src="img/29-8.jpg" alt="">
 		</li>
+-->
 		<li class="wow bounceInUp" >
 			<img src="img/29-9.jpg" alt="">
 		</li>
@@ -219,9 +229,14 @@
 		<li class="wow bounceInUp" >
 			<img src="img/44.jpg" alt="">
 		</li>
+		<li class="wow bounceInUp" >
+			<img src="img/45.jpg" alt="">
+		</li>
 	</ul>
+	
 
 </div>
+
 
 
 
@@ -230,6 +245,7 @@
 if (!(/msie [6|7|8|9]/i.test(navigator.userAgent))){
 	new WOW().init();
 };
+	
 
 </script>
 </body>
